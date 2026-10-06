@@ -62,5 +62,7 @@ public class Bateriajava {
         System.out.println("apellidos:"+apellidosej5);
         System.out.println("edad:"+edadej5);
         System.out.println("curso:"+cursoej5);
+            System.out.println("curso:"+cursoej5);
+        
     }
 }
