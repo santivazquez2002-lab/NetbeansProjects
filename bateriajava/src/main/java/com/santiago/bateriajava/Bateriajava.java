@@ -53,16 +53,34 @@ public class Bateriajava {
         System.out.println("Desarrollo de aplicacioones web");
 
         //ejercicio5
-               String nombreej5 = "santiago";
+         String nombreej5 = "santiago";
         String apellidosej5 = "vazquez isla";
-        String edadej5 = "24";
+        int edadej5 = 24;
         String ciudadej5 = "Jerez";
         String cursoej5 = "1ºdaw";
         System.out.println("nombre:"+nombreej5);
         System.out.println("apellidos:"+apellidosej5);
         System.out.println("edad:"+edadej5);
         System.out.println("curso:"+cursoej5);
-            System.out.println("curso:"+cursoej5);
+            
+        //ejercicio6
+        //aqui muestro mi nombre
+        String nombreej6 = "santiago";
+        //aqui muestro mis apellidos 
+        String apellidosej6 = "vazquez isla";
+        //aqui muestro mi edad 
+        int edadej6 = 24;
+        //aqui muestro el curso en el que estoy 
+        String cursoej6 = "1ºdaw";
         
+        System.out.println("nombre:"+nombreej6);
+        System.out.println("apellidos:"+apellidosej6);
+        System.out.println("edad:"+edadej6);
+        System.out.println("curso:"+cursoej6);
+        
+        
+        //ejercicio7
+        
+       
     }
 }
