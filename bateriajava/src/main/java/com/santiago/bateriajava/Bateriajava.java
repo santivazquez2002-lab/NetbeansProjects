@@ -382,7 +382,7 @@ public class Bateriajava {
         System.out.println("¿La nota es diferente de 0?"+ nota_diferente_ej26 );
        
         //ejercicio27
-        k
+        
     }   
     
 }  
