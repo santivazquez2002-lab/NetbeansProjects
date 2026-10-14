@@ -380,7 +380,8 @@ public class Bateriajava {
         System.out.println("¿La nota es menor que 5?"+ nota_menor5_ej26 );
         System.out.println("¿La nota es igual a 10?"+ nota_igual10_ej26 );
         System.out.println("¿La nota es diferente de 0?"+ nota_diferente_ej26 );
-        
+       
+        //ejercicio27
         
     }   
     
