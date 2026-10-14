@@ -319,11 +319,69 @@ public class Bateriajava {
         System.out.println("importe con descuento " +(( precio_originalej22 * descuento_ej22)/100));
         System.out.println("precio despues del descuento 450 "); 
          System.out.println("iva " +(( precio_originalej22 * iva_ej22)/100));
-         System.out.println("el precio despues del descuento y sumarle el iva es ");
+         System.out.println("el precio despues del descuento y sumarle el iva es 505 ");
         
         
-       
-      
+        //ejercicio23
+        System.out.println("================================ ");
+        System.out.println("ejercicio23");
+        System.out.println("================================");
+
+        int a_ej23 = 10;
+        int b_ej23 = 20;
+        System.out.println("a > b= " + a_ej23 + ">" + b_ej23);
+        System.out.println("a< b= " + a_ej23 + "<" + b_ej23);
+        System.out.println("a >= b= " + a_ej23 + ">=" + b_ej23);
+        System.out.println("a <= b= " + a_ej23 + "<=" + b_ej23);
+        System.out.println("a == b= " + a_ej23 + "==" + b_ej23);
+        System.out.println("a != b= " + a_ej23 + "!=" + b_ej23);
+
+         //ejercicio24
+        System.out.println("================================ ");
+        System.out.println("ejercicio24");
+        System.out.println("================================");
+        
+        int edad_ej24 =20;
+        boolean mayor_edad_ej24 = true;
+        System.out.println("la edad es " +  edad_ej24);
+        System.out.println("¿es mayor de edad?" + mayor_edad_ej24);
+        
+        
+        //ejercicio25
+        System.out.println("================================ ");
+        System.out.println("ejercicio25");
+        System.out.println("================================");
+        
+        int precio_ej25 = 75;
+        boolean precio_50_ej25 = true;
+        boolean precio_100_ej25 = false;
+        boolean precio_75_ej25 = true;
+        boolean precio_20_ej25 = true;
+        System.out.println("el precio es"+ precio_ej25);
+        System.out.println("¿el precio es mayor que 50" + precio_50_ej25);
+        System.out.println("¿El precio es menor que 100?" + precio_100_ej25);
+        System.out.println("¿El precio es igual a 75?" + precio_75_ej25);
+        System.out.println("¿El precio es diferente de 20?" + precio_20_ej25);
+        
+        
+        
+           //ejercicio26
+        System.out.println("================================ ");
+        System.out.println("ejercicio26");
+        System.out.println("================================");
+          
+      double    nota_ej26 = 7.5;
+        boolean nota_5_ej26 = true;
+        boolean nota_menor5_ej26 = false;
+        boolean nota_igual10_ej26 = false;
+        boolean nota_diferente_ej26 = true;
+        
+        System.out.println("¿La nota es mayor que 5?"+nota_5_ej26 );
+        System.out.println("¿La nota es menor que 5?"+ nota_menor5_ej26 );
+        System.out.println("¿La nota es igual a 10?"+ nota_igual10_ej26 );
+        System.out.println("¿La nota es diferente de 0?"+ nota_diferente_ej26 );
+        
         
     }   
-}
+    
+}  
