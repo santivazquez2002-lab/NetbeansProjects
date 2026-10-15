@@ -382,7 +382,205 @@ public class Bateriajava {
         System.out.println("¿La nota es diferente de 0?"+ nota_diferente_ej26 );
        
         //ejercicio27
-        aaaa
-    }   
+       
+         System.out.println("================================ ");
+        System.out.println("ejercicio27");
+        System.out.println("================================");
+        
+        System.out.println(true && true);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+        
+         //ejercicio28
+       
+         System.out.println("================================ ");
+        System.out.println("ejercicio28");
+        System.out.println("================================");
+        
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+        
+           //ejercicio29
+       
+         System.out.println("================================ ");
+        System.out.println("ejercicio29");
+        System.out.println("================================");
+        
+        System.out.println(!true);
+        System.out.println(!false);
+        
+        
+        
+          //ejercicio30
+       //salvador me lo ha realizdo 
+         System.out.println("================================ ");
+        System.out.println("ejercicio30");
+        System.out.println("================================");
+        
+        
+        int edad_ej30 =25;
+        System.out.println("La edad es mayor o igual que 18 Y menor o igual que 65."+ (edad_ej30 >=18 && edad_ej30 <=65));
+           
+        
+            //ejercicio31
+       //salvador me lo ha realizdo 
+         System.out.println("================================ ");
+        System.out.println("ejercicio31");
+        System.out.println("================================");
+        
+        
+      int   precio_ej31 =500;
+        System.out.println("El precio es mayor que 0 Y menor que 1000"+(precio_ej31 >=0 && precio_ej31 <=1000));
+        
+        
+        
+        
+          //ejercicio32
+       //salvador me lo ha realizdo 
+         System.out.println("================================ ");
+        System.out.println("ejercicio32");
+        System.out.println("================================");
+        
+        int edad_ej32 = 20;
+        int salario_ej32 = 1500;
+        System.out.println("La edad es mayor o igual que 18 Y el salario es mayor que 1000."+(edad_ej32 >=18 && salario_ej32 <=1000));
+        
+        
+         //ejercicio33
+        
+         System.out.println("================================ ");
+        System.out.println("ejercicio33");
+        System.out.println("================================");
+       
+        int [] numeros_ej33 = {1,2,3,4,5};
+        System.out.println("el array tiene" + numeros_ej33.length + " posiciones");
+        
+        
+         //ejercicio34
+        
+        System.out.println("================================ ");
+        System.out.println("ejercicio34");
+        System.out.println("================================");
+
+        int[] numeros_ej34 = {10, 20, 30, 40, 50};
+        System.out.println("primer numero:" + numeros_ej34[0]);
+        System.out.println("segundo numero:" + numeros_ej34[1]);
+        System.out.println("tercer numero:" + numeros_ej34[2]);
+        System.out.println("cuarto numero:" + numeros_ej34[3]);
+        System.out.println("quinto numero:" + numeros_ej34[4]);
+        
+        //ejercicio35
+        System.out.println("================================ ");
+        System.out.println("ejercicio35");
+        System.out.println("================================");
+
+        int[] numeros_ej35 = {10, 20, 30, 40, 50};
+        System.out.println("primer numero:" + numeros_ej35[0]);
+        System.out.println("segundo numero:" + numeros_ej35[1]);
+        System.out.println("tercer numero:" + numeros_ej35[2]);
+        System.out.println("cuarto numero:" + numeros_ej35[3]);
+        System.out.println("quinto numero:" + numeros_ej35[4]);
+
+        
+         //ejercicio36
+        System.out.println("================================ ");
+        System.out.println("ejercicio36");
+        System.out.println("================================");
+
+        int[] numeros_ej36 = {10, 20, 30, 40, 50};
+        System.out.println("primer numero:" + numeros_ej36[0] * 10);
+        System.out.println("segundo numero:" + numeros_ej36[1] * 10);
+        System.out.println("tercer numero:" + numeros_ej36[2] * 10);
+        System.out.println("cuarto numero:" + numeros_ej36[3] * 10);
+        System.out.println("quinto numero:" + numeros_ej36[4] * 10);
+        
+        
+         //ejercicio37
+        System.out.println("================================ ");
+        System.out.println("ejercicio37");
+        System.out.println("================================");
+
+        String[] nombres_ej37 = {"ana", "juan", "pedro", "laura", "carlos"};
+        System.out.println("primer alumno:" + nombres_ej37[0]);
+        System.out.println("segundo alumno:" + nombres_ej37[1]);
+        System.out.println("tercer alumno:" + nombres_ej37[2]);
+        
+         
+        //ejercicio38
+        System.out.println("================================ ");
+        System.out.println("ejercicio38");
+        System.out.println("================================");
+
+        double[] numeros_ej38 = {5.5, 7.0, 8.5, 4.5, 9.0};
+        System.out.println("primer numero:" + numeros_ej38[0]);
+        System.out.println("segundo numero:" + numeros_ej38[1]);
+        System.out.println("tercer numero:" + numeros_ej38[2]);
+        System.out.println("cuarto numero:" + numeros_ej38[3]);
+        System.out.println("quinto numero:" + numeros_ej38[4]);
+        
+        
+          //ejercicio39
+        System.out.println("================================ ");
+        System.out.println("ejercicio39");
+        System.out.println("================================");
+        
+        double[] numeros_ej39 = {5.5, 7.0, 8.5, 4.5, 9.0};
+         System.out.println("nota 1:" + numeros_ej39[0]);
+        System.out.println("nota 2:" + numeros_ej39[1]);
+        System.out.println("nota 3:" + numeros_ej39[2]);
+        System.out.println("nota 4:" + numeros_ej39[3]);
+        System.out.println("nota 5:" + numeros_ej39[4]);
+        System.out.println("esta es la media"+(numeros_ej39[1]+numeros_ej39[2]+numeros_ej39[3]+numeros_ej39[4]+numeros_ej39[0])/5);
+        
+           //ejercicio40
+        System.out.println("================================ ");
+        System.out.println("ejercicio40");
+        System.out.println("================================");
+        
+        int[] numeros_ej40 = {10, 20, 30, 40, 50, 60};
+                System.out.println("el array tiene" + numeros_ej40.length + " posiciones");
+
+
+
+        //ejercicio41
+        System.out.println("================================ ");
+        System.out.println("ejercicio41");
+        System.out.println("================================");
+
+        int[] numeros_ej41 = {10, 20, 30, 40, 50};
+        System.out.println("el array tiene" + numeros_ej41[numeros_ej41.length - 1] + " posiciones");
+
+        
+        //ejercicio42
+        System.out.println("================================ ");
+        System.out.println("ejercicio42");
+        System.out.println("================================");
+
+        String nombre_ej42 = "santi";
+        String apellidos_ej42 = "Vazquez";
+        int edad_ej42 = 24;
+        String curso_ej42 = "1daw";
+        int nota_ej42 = 8;
+        boolean repetidor_ej42 = false;
+        int []notas_ej42 = {5, 9, 6, 7, 5};
+        System.out.println("nombre"+nombre_ej42);
+        System.out.println("apellidos"+apellidos_ej42);
+        System.out.println("edad"+edad_ej42);
+        System.out.println("nota"+ nota_ej42);
+        System.out.println("curso"+curso_ej42);
+        System.out.println("repetidor"+ repetidor_ej42);
+       System.out.println("el array tiene" + notas_ej42.length + " notas");
+      System.out.println("esta es la media"+(notas_ej42[1]+notas_ej42[2]+notas_ej42[3]+notas_ej42[4]+notas_ej42[0])/5);
+
+ 
+
+                 
+         
+        
+        
+    }
     
 }  
