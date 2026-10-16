@@ -718,7 +718,10 @@ public class Bateriajava {
         System.out.println("el precio con iva es " + precio_ej51 + calculo_iva_ej51);
         
 
-        
+         //ejercicio52
+        System.out.println("================================ ");
+        System.out.println("ejercicio52");
+        System.out.println("================================");
         
                
         
