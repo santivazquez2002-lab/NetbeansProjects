@@ -854,6 +854,52 @@ public class Bateriajava {
         System.out.println("ejercicio60");
         System.out.println("================================");
         
+        double km_ej60=500;
+        double litros_ej60=40;
+        
+        System.out.println("consumo "+(litros_ej60/km_ej60)*100);
+        
+        //ejercicio61
+        System.out.println("================================ ");
+        System.out.println("ejercicio61");
+        System.out.println("================================");
+        
+        double  km_ej61=500;
+        double consumo_ej61=6.5;
+        double  preciolitro_ej61=1.60;
+        System.out.println("litros cunsumidos "+(consumo_ej61*5));
+        double  litros_consumidos_ej61=31.5;
+        System.out.println("coste total del viaje "+(litros_consumidos_ej61*preciolitro_ej61));
+        
+        
+        
+          //ejercicio62
+        System.out.println("================================ ");
+        System.out.println("ejercicio62");
+        System.out.println("================================");
+        
+        
+        double  salario_ej62=1800;
+        System.out.println("salario mensual "+salario_ej62);
+        System.out.println("salario anual 12 pagas "+(salario_ej62*12));
+        System.out.println("salario anual 14 pagas "+salario_ej62*14);
+        
+        
+        
+          //ejercicio63 (acabo de descubrir que puedo hacer una operacion en un doube :)
+        System.out.println("================================ ");
+        System.out.println("ejercicio63");
+        System.out.println("================================");
+        
+        
+        double  producto1_ej63=25.50;
+        double  producto2_ej63=15.99;
+        double  producto3_ej63=45.75;
+        double  precio_total_ej63 =producto1_ej63+producto2_ej63+producto3_ej63;
+        double  iva_ej63=precio_total_ej63*0.21;
+        double  precio_final_ej63=iva_ej63+precio_total_ej63;
+        
+        
      }
 
 }
