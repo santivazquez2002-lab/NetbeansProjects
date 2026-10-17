@@ -991,6 +991,39 @@ public class Bateriajava {
         System.out.println("ejercicio70");
         System.out.println("================================"); 
         
+        double[] notas_ej70 = {6.5,7.5,8.0,4.5,9.0};
+        double media_notas_ej70 =(notas_ej70[0]+notas_ej70[1]+notas_ej70[2]+notas_ej70[3]+notas_ej70[4])/5;
+        double diferencia_entre_notas_ej70=(notas_ej70[0]-notas_ej70[4]);
+        double suma_entre_notas_ej70=(notas_ej70[0]+notas_ej70[1]);
+        double producto_entre_notas_ej70=(notas_ej70[1]*notas_ej70[2]);
+        
+        
+         //ejercicio71
+        System.out.println("================================ ");
+        System.out.println("ejercicio71");
+        System.out.println("================================");
+        
+        double[] notas_ej71 = {6.5,7.5,8.0,4.5,9.0};
+        boolean nota_mayor5_ej71=true;
+        boolean nota_igual_ej71=true;
+        boolean nota_3mayor4_ej71=true;
+        boolean nota5_diferente10_ej71=true;
+        System.out.println("La primera nota es mayor que 5 "+nota_mayor5_ej71);
+        System.out.println("La segunda nota es igual a 7.5 "+nota_igual_ej71);
+        System.out.println("La tercera nota es mayor que la cuarta "+nota_3mayor4_ej71);
+        System.out.println("La quinta nota es diferente de 10 "+nota5_diferente10_ej71);
+      
+        
+        
+        //ejercicio72
+        System.out.println("================================ ");
+        System.out.println("ejercicio72");
+        System.out.println("================================");
+        
+        
+
+
+        
         
      }
 
