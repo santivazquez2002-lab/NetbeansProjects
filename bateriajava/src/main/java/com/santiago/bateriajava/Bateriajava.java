@@ -723,10 +723,137 @@ public class Bateriajava {
         System.out.println("ejercicio52");
         System.out.println("================================");
         
-               
+        String nombre_ej52 =  "fifa 27";
+        String genero_ej52 = "deporte";
+        int precio_ej52 = 70;
+        int edad_recomendada_ej52 =3;
+        boolean disponibilidad_ej52= true;
         
-                
-                
+       int[] valoraciones_ej52 = {10, 8, 3,6, 5};
+       System.out.println("la media de las valoraciones es " + (valoraciones_ej52[1] + valoraciones_ej52[2] + valoraciones_ej52[3] +valoraciones_ej52[4] +valoraciones_ej52[0]) / 5);
+       
+       boolean  media_ej52 =false;
+        System.out.println("la valoracion es superior a 7 " + media_ej52);
+        boolean inferior_ej52=false;
+        System.out.println("el precio es inferior a 50 " + inferior_ej52);
+        System.out.println("el juego esta disponible " + disponibilidad_ej52 );
+        System.out.println("el nombre del juego es " + nombre_ej52 );        
+        System.out.println("el genero es " + genero_ej52);
+        System.out.println("el precio es " + precio_ej52);
+        System.out.println("la edad  recomendada es " + edad_recomendada_ej52);
+        
+        
+        
+         //ejercicio53
+        System.out.println("================================ ");
+        System.out.println("ejercicio53");
+        System.out.println("================================");
+        
+        
+        String titulo_ej53 ="el ascenso";
+        String director_ej53 ="Santiago";
+        int ano_ej53=2024;
+        int duracion_ej53=90;
+        int precio_ej53=2;
+        int valoracion_ej53=10;
+        boolean disponible_ej53=true;
+        
+        System.out.println("================================");
+        System.out.println("             PELÍCULA            ");
+        System.out.println("================================");
+        System.out.println("titulo: "+titulo_ej53);
+        System.out.println("director: "+director_ej53);
+        System.out.println("ano:" +ano_ej53 );
+        System.out.println("duracion: "+duracion_ej53);
+        System.out.println("precio: "+precio_ej53);
+        System.out.println("valoracion: "+valoracion_ej53);
+        System.out.println("disponible "+disponible_ej53);
+        System.out.println("================================");
+        
+        
+         //ejercicio54
+        System.out.println("================================ ");
+        System.out.println("ejercicio54");
+        System.out.println("================================");
+        
+        int edad1_ej54=20;
+        int edad2_ej54=25;
+        int edad3_ej54=30;
+        
+        System.out.println("suma: "+(edad1_ej54+edad2_ej54+edad3_ej54));
+        System.out.println("media: "+(edad1_ej54+edad2_ej54+edad3_ej54)/3);
+        System.out.println("diferencia entre l primera y la  ultima "+(edad1_ej54-edad3_ej54));
+        System.out.println("suma num1 y num2 "+(edad1_ej54+edad2_ej54));
+        System.out.println("resta num2 y num1: "+(edad2_ej54-edad1_ej54));
+        System.out.println("resta num3 y num1: "+(edad3_ej54-edad1_ej54));
+        
+
+          //ejercicio55
+        System.out.println("================================ ");
+        System.out.println("ejercicio55");
+        System.out.println("================================");
+        
+        int horas_ej55=5;
+        int minutos_ej55=300;
+        System.out.println("minutos "+(horas_ej55*60));
+        System.out.println("segundos "+(minutos_ej55*60));
+        
+        
+        
+         //ejercicio56
+        System.out.println("================================ ");
+        System.out.println("ejercicio56");
+        System.out.println("================================");
+        
+        
+        int minutos_ej56=150;
+        System.out.println("horas: "+(minutos_ej56/60));
+        System.out.println("minutos restantes "+(minutos_ej56%60));
+        
+        
+         //ejercicio57
+        System.out.println("================================ ");
+        System.out.println("ejercicio57");
+        System.out.println("================================");
+           
+        int km_ej57=10;
+        int metros_ej57=10000;
+        System.out.println("metros: "+(km_ej57*1000));
+        System.out.println("centimetros "+(metros_ej57*100));
+        
+        
+         //ejercicio58
+        System.out.println("================================ ");
+        System.out.println("ejercicio58");
+        System.out.println("================================");
+        
+        int kg_ej58=75;
+        int gramos_ej58=75000;
+        
+        System.out.println("gramos: "+(kg_ej58*1000));
+        System.out.println("miligramos "+(gramos_ej58*1000));
+
+        
+        
+        
+         //ejercicio59
+        System.out.println("================================ ");
+        System.out.println("ejercicio59");
+        System.out.println("================================");
+        
+        int distancia_ej59=150;
+        int tiempo_ej59=2;
+        System.out.println("velocidad "+(distancia_ej59/tiempo_ej59));
+        System.out.println("tiempo "+tiempo_ej59);
+        System.out.println("distancia: "+distancia_ej59);
+        
+        
+       
+        //ejercicio60
+        System.out.println("================================ ");
+        System.out.println("ejercicio60");
+        System.out.println("================================");
+        
      }
 
 }
