@@ -900,6 +900,98 @@ public class Bateriajava {
         double  precio_final_ej63=iva_ej63+precio_total_ej63;
         
         
+        
+           
+          //ejercicio64
+        System.out.println("================================ ");
+        System.out.println("ejercicio64");
+        System.out.println("================================");
+        
+        double[] precios_ej64 = { 12.5,25.99,8.75,49.99,15.00};
+        System.out.println("todos los precios " +precios_ej64);
+        System.out.println("prpimer precio "+precios_ej64[0]);
+        System.out.println("segundo precio "+precios_ej64[1]);
+        System.out.println("tercero precio "+precios_ej64[2]);
+        System.out.println("cuarto precio "+precios_ej64[3]);
+        System.out.println("quinto precio "+precios_ej64[4]);
+        System.out.println("total de productos "+precios_ej64.length);
+        
+
+       
+        //ejercicio65
+        System.out.println("================================ ");
+        System.out.println("ejercicio65");
+        System.out.println("================================");
+        
+         double[] precios_ej65 = { 12.5,25.99,8.75,49.99,15.00};
+         System.out.println("precio 1 "+precios_ej65[0]);
+         System.out.println("precio 2 "+precios_ej65[1]);
+         System.out.println("precio 3 "+precios_ej65[2]);
+         System.out.println("precio 4 "+precios_ej65[3]);
+         System.out.println("precio 5 "+precios_ej65[4]);
+         
+        System.out.println("media precios "+(precios_ej65[0]+precios_ej65[1]+precios_ej65[2]+precios_ej65[3]+precios_ej65[4])/5);
+     
+        
+        
+         //ejercicio66
+        System.out.println("================================ ");
+        System.out.println("ejercicio66");
+        System.out.println("================================"); 
+        
+       int[] edades_ej66 = {18,20,22,25,30};
+       System.out.println("primera edad "+edades_ej66[0]);
+       System.out.println("tercera edad "+edades_ej66[2]);
+       System.out.println("ultima edad "+edades_ej66[4]);
+        System.out.println("numero totales de edades "+edades_ej66.length);
+        
+        
+        
+        //ejercicio67
+        System.out.println("================================ ");
+        System.out.println("ejercicio67");
+        System.out.println("================================"); 
+        double[] alturas_ej67 = {1.65,1.72,1.80,1.75,1.68};
+      System.out.println("media alturas "+(alturas_ej67[0]+alturas_ej67[1]+alturas_ej67[2]+alturas_ej67[3]+alturas_ej67[4])/5);
+      
+      
+      
+      //ejercicio68
+        System.out.println("================================ ");
+        System.out.println("ejercicio68");
+        System.out.println("================================"); 
+
+        
+        String[] productos_ej68 = { "Teclado", "Ratón","Monitor","Webcam", "Auriculares"};
+       System.out.println("primer producto "+productos_ej68[0]);
+       System.out.println("segundo producto "+productos_ej68[1]);
+       System.out.println("tercer producto "+productos_ej68[2]);
+       System.out.println("cuarto producto "+productos_ej68[3]);
+       System.out.println("quinto producto "+productos_ej68[4]);
+        System.out.println("numero total de productos "+productos_ej68.length);
+        
+        
+        //ejercicio69
+        System.out.println("================================ ");
+        System.out.println("ejercicio69");
+        System.out.println("================================"); 
+
+        
+        String[] productos_ej69 = { "portatil", "tablet","impresora","Webcam", "Auriculares"};
+        System.out.println("todos los productos "+productos_ej69.length);
+       System.out.println("primer producto "+productos_ej69[0]);
+       System.out.println("segundo producto "+productos_ej69[1]);
+       System.out.println("tercer producto "+productos_ej69[2]);
+       System.out.println("cuarto producto "+productos_ej69[3]);
+       System.out.println("quinto producto "+productos_ej69[4]);
+       
+       
+        //ejercicio70
+        System.out.println("================================ ");
+        System.out.println("ejercicio70");
+        System.out.println("================================"); 
+        
+        
      }
 
 }
