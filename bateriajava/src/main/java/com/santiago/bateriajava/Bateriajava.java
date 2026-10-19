@@ -1081,9 +1081,132 @@ public class Bateriajava {
        
        
 
-               
-               
-              
+         //ejercicio76
+        System.out.println("================================ ");
+        System.out.println("ejercicio76");
+        System.out.println("================================");        
+        
+        String nombre_ej76="fifa";
+        double  precio_ej76=70;
+        double  horasjugadas_ej76=200;
+        int nivel_ej76=7;
+        int puntuacion_ej76=8;
+        boolean completado_ej76=true;
+        
+        System.out.println("nombre "+nombre_ej76);
+        System.out.println("precio "+precio_ej76);
+        System.out.println("horasJugadas "+horasjugadas_ej76);
+        System.out.println("nivel "+nivel_ej76);
+        System.out.println("puntuacion "+puntuacion_ej76);
+        System.out.println("completado "+completado_ej76);
+        
+        boolean precio_inferior_50_ej76=false;
+        boolean mas_10horas_ej76=true;
+        boolean puntuacion_mas7_ej76=true;
+        
+        
+        
+         //ejercicio77
+        System.out.println("================================ ");
+        System.out.println("ejercicio77");
+        System.out.println("================================"); 
+        
+      
+        int[] puntuaciones_ej77 = {8,7,9,6,10};
+       double media_puntuaciones_ej77 = (puntuaciones_ej77[0] + puntuaciones_ej77[1] + puntuaciones_ej77[2] + puntuaciones_ej77[3] + puntuaciones_ej77[4]) / 5;
+        System.out.println("estes es el primero "+ puntuaciones_ej77[0]);
+        System.out.println("este es el ultimo "+puntuaciones_ej77[4]);
+        System.out.println("numero de puntuaciones "+puntuaciones_ej77);
+        boolean puntuacion_alta_ej76 = media_puntuaciones_ej77 <7;
+        System.out.println("esto es si la media es superior a 7 "+puntuacion_alta_ej76);
+        
+        
+
+       //ejercicio78
+        System.out.println("================================ ");
+        System.out.println("ejercicio78");
+        System.out.println("================================");  
+  
+        
+       String  equipo_ej78= "mi equipo";
+       int  partidos_jugados_ej78=10;
+       int  partidos_ganadosej78=6;
+       int  partidos_empatadosej78=2;
+       int  partidos_perdidos78=2;
+       int  puntosej78=20;
+       
+        System.out.println("Porcentaje de partidos ganados. "+(partidos_ganadosej78*100)/partidos_jugados_ej78);
+        System.out.println("Porcentaje de partidos perdidos. "+(partidos_jugados_ej78*100)/partidos_ganadosej78);
+        System.out.println("puntos por partido "+puntosej78/partidos_jugados_ej78);
+        
+        
+        
+
+         //ejercicio79
+        System.out.println("================================ ");
+        System.out.println("ejercicio79");
+        System.out.println("================================");
+        
+        
+        
+        int[] puntos_ej79 = {10,15,20,12,18};
+       double   total_puntosej79=puntos_ej79[0]+puntos_ej79[1]+puntos_ej79[2]+puntos_ej79[3]+puntos_ej79[4];
+       double   mediaej79=(puntos_ej79[0]+puntos_ej79[1]+puntos_ej79[2]+puntos_ej79[3]+puntos_ej79[4])/5;
+       double   diferenciaej79=puntos_ej79[0]-puntos_ej79[4];
+       double   numeropartidos_ej79=puntos_ej79.length ;
+       
+       
+       
+       
+       
+       //ejercicio80
+        System.out.println("================================ ");
+        System.out.println("ejercicio80");
+        System.out.println("================================");
+        
+       double[] temperaturas_ej80 = {18.5,21.2,25.4,30.1,28.8};
+    
+        System.out.println("Primera temperatura. " +temperaturas_ej80[0]);
+        System.out.println("Última temperatura. "+temperaturas_ej80[4]);
+      double   mediaej80=(temperaturas_ej80[0]+temperaturas_ej80[1]+temperaturas_ej80[2]+temperaturas_ej80[3]+temperaturas_ej80[4])/5;
+        System.out.println("Temperatura media. "+mediaej80);
+        System.out.println("Número de mediciones. "+temperaturas_ej80.length);
+        boolean tmeperatura_ej80=mediaej80>25;
+        System.out.println("temperatura media es superior a 25 grados. "+tmeperatura_ej80);
+        
+       
+       //ejercicio81
+        System.out.println("================================ ");
+        System.out.println("ejercicio81");
+        System.out.println("================================");  
+        
+        int celsious_ej81=25;
+        int  Fahrenheit_ej81 = (celsious_ej81*9)/(5+32);
+        System.out.println("Temperatura Celsius: "+celsious_ej81);
+        System.out.println("Temperatura Fahrenheit: "+Fahrenheit_ej81);
+        
+        
+        
+        
+         //ejercicio82
+        System.out.println("================================ ");
+        System.out.println("ejercicio82");
+        System.out.println("================================");  
+        
+        int baseej82=20;
+        int alturaej82=10;
+       double   area_ej82=  baseej82* alturaej82;
+       double   perimetroej82= (baseej82*2)+(alturaej82*2);
+        System.out.println("Área "+area_ej82);
+        System.out.println("Perímetro "+perimetroej82);
+        
+        
+        
+         
+         //ejercicio83
+        System.out.println("================================ ");
+        System.out.println("ejercicio83");
+        System.out.println("================================");         
         
         
      
