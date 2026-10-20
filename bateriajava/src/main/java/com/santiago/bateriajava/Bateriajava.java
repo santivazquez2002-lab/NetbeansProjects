@@ -1032,13 +1032,11 @@ public class Bateriajava {
         boolean tiene_empleadosej73 = false;
         boolean facturacion1000000_ej73 = true;
 
-      
-        
         //ejercicio74
         System.out.println("================================ ");
         System.out.println("ejercicio74");
         System.out.println("================================");
-       
+
         String nombre_tienda_ej74 = "bar manolo";
         int numeros_de_empleadosej74 = 5;
         double ventas_mensuales_ej74 = 500000;
@@ -1050,166 +1048,241 @@ public class Bateriajava {
         System.out.println("Facturación mensual " + ventas_mensuales_ej74);
         System.out.println("Ciudad " + ciudad_ej74);
         System.out.println("Esta abierta. " + abierta_ej74);
-        
-        boolean tienda_grande_ej74= numeros_de_empleadosej74 < 50;
-        boolean ventasaltas_ej74= ventas_mensuales_ej74 <5000000;
-        
-        
+
+        boolean tienda_grande_ej74 = numeros_de_empleadosej74 < 50;
+        boolean ventasaltas_ej74 = ventas_mensuales_ej74 < 5000000;
+
         //ejercicio75
         System.out.println("================================ ");
         System.out.println("ejercicio75");
         System.out.println("================================");
-        
-        String  usuario_ej75="santibicho";
-        int seguidores_ej75=1000;
-        int seguidos_ej75=785;
-        int publicaciones_ej75=5;
-        boolean verificada_ej75=false;
-        
-        System.out.println("usuario "+usuario_ej75);
-        System.out.println("seguidores "+seguidores_ej75);
-        System.out.println("seguidos "+seguidos_ej75);
-        System.out.println("publicaciones "+publicaciones_ej75);
-        System.out.println("verificada "+verificada_ej75);
-        
-        double direrencia_entre_seguidos_ej75=seguidores_ej75-seguidos_ej75;
-        double suma_entre_seguidos_ej75=seguidores_ej75+seguidos_ej75;
-        
-       boolean  mas_seguidores_ej75=seguidores_ej75>1000;
-       boolean  mas_seguidoresoseguidos_ej75=seguidores_ej75>seguidos_ej75;
-       boolean  esta_verificada_ej75=verificada_ej75;
-       
-       
 
-         //ejercicio76
+        String usuario_ej75 = "santibicho";
+        int seguidores_ej75 = 1000;
+        int seguidos_ej75 = 785;
+        int publicaciones_ej75 = 5;
+        boolean verificada_ej75 = false;
+
+        System.out.println("usuario " + usuario_ej75);
+        System.out.println("seguidores " + seguidores_ej75);
+        System.out.println("seguidos " + seguidos_ej75);
+        System.out.println("publicaciones " + publicaciones_ej75);
+        System.out.println("verificada " + verificada_ej75);
+
+        double direrencia_entre_seguidos_ej75 = seguidores_ej75 - seguidos_ej75;
+        double suma_entre_seguidos_ej75 = seguidores_ej75 + seguidos_ej75;
+
+        boolean mas_seguidores_ej75 = seguidores_ej75 > 1000;
+        boolean mas_seguidoresoseguidos_ej75 = seguidores_ej75 > seguidos_ej75;
+        boolean esta_verificada_ej75 = verificada_ej75;
+
+        //ejercicio76
         System.out.println("================================ ");
         System.out.println("ejercicio76");
-        System.out.println("================================");        
-        
-        String nombre_ej76="fifa";
-        double  precio_ej76=70;
-        double  horasjugadas_ej76=200;
-        int nivel_ej76=7;
-        int puntuacion_ej76=8;
-        boolean completado_ej76=true;
-        
-        System.out.println("nombre "+nombre_ej76);
-        System.out.println("precio "+precio_ej76);
-        System.out.println("horasJugadas "+horasjugadas_ej76);
-        System.out.println("nivel "+nivel_ej76);
-        System.out.println("puntuacion "+puntuacion_ej76);
-        System.out.println("completado "+completado_ej76);
-        
-        boolean precio_inferior_50_ej76=false;
-        boolean mas_10horas_ej76=true;
-        boolean puntuacion_mas7_ej76=true;
-        
-        
-        
-         //ejercicio77
+        System.out.println("================================");
+
+        String nombre_ej76 = "fifa";
+        double precio_ej76 = 70;
+        double horasjugadas_ej76 = 200;
+        int nivel_ej76 = 7;
+        int puntuacion_ej76 = 8;
+        boolean completado_ej76 = true;
+
+        System.out.println("nombre " + nombre_ej76);
+        System.out.println("precio " + precio_ej76);
+        System.out.println("horasJugadas " + horasjugadas_ej76);
+        System.out.println("nivel " + nivel_ej76);
+        System.out.println("puntuacion " + puntuacion_ej76);
+        System.out.println("completado " + completado_ej76);
+
+        boolean precio_inferior_50_ej76 = false;
+        boolean mas_10horas_ej76 = true;
+        boolean puntuacion_mas7_ej76 = true;
+
+        //ejercicio77
         System.out.println("================================ ");
         System.out.println("ejercicio77");
-        System.out.println("================================"); 
-        
-      
-        int[] puntuaciones_ej77 = {8,7,9,6,10};
-       double media_puntuaciones_ej77 = (puntuaciones_ej77[0] + puntuaciones_ej77[1] + puntuaciones_ej77[2] + puntuaciones_ej77[3] + puntuaciones_ej77[4]) / 5;
-        System.out.println("estes es el primero "+ puntuaciones_ej77[0]);
-        System.out.println("este es el ultimo "+puntuaciones_ej77[4]);
-        System.out.println("numero de puntuaciones "+puntuaciones_ej77);
-        boolean puntuacion_alta_ej76 = media_puntuaciones_ej77 <7;
-        System.out.println("esto es si la media es superior a 7 "+puntuacion_alta_ej76);
-        
-        
+        System.out.println("================================");
 
-       //ejercicio78
+        int[] puntuaciones_ej77 = {8, 7, 9, 6, 10};
+        double media_puntuaciones_ej77 = (puntuaciones_ej77[0] + puntuaciones_ej77[1] + puntuaciones_ej77[2] + puntuaciones_ej77[3] + puntuaciones_ej77[4]) / 5;
+        System.out.println("estes es el primero " + puntuaciones_ej77[0]);
+        System.out.println("este es el ultimo " + puntuaciones_ej77[4]);
+        System.out.println("numero de puntuaciones " + puntuaciones_ej77);
+        boolean puntuacion_alta_ej76 = media_puntuaciones_ej77 < 7;
+        System.out.println("esto es si la media es superior a 7 " + puntuacion_alta_ej76);
+
+        //ejercicio78
         System.out.println("================================ ");
         System.out.println("ejercicio78");
-        System.out.println("================================");  
-  
-        
-       String  equipo_ej78= "mi equipo";
-       int  partidos_jugados_ej78=10;
-       int  partidos_ganadosej78=6;
-       int  partidos_empatadosej78=2;
-       int  partidos_perdidos78=2;
-       int  puntosej78=20;
-       
-        System.out.println("Porcentaje de partidos ganados. "+(partidos_ganadosej78*100)/partidos_jugados_ej78);
-        System.out.println("Porcentaje de partidos perdidos. "+(partidos_jugados_ej78*100)/partidos_ganadosej78);
-        System.out.println("puntos por partido "+puntosej78/partidos_jugados_ej78);
-        
-        
-        
+        System.out.println("================================");
 
-         //ejercicio79
+        String equipo_ej78 = "mi equipo";
+        int partidos_jugados_ej78 = 10;
+        int partidos_ganadosej78 = 6;
+        int partidos_empatadosej78 = 2;
+        int partidos_perdidos78 = 2;
+        int puntosej78 = 20;
+
+        System.out.println("Porcentaje de partidos ganados. " + (partidos_ganadosej78 * 100) / partidos_jugados_ej78);
+        System.out.println("Porcentaje de partidos perdidos. " + (partidos_jugados_ej78 * 100) / partidos_ganadosej78);
+        System.out.println("puntos por partido " + puntosej78 / partidos_jugados_ej78);
+
+        //ejercicio79
         System.out.println("================================ ");
         System.out.println("ejercicio79");
         System.out.println("================================");
-        
-        
-        
-        int[] puntos_ej79 = {10,15,20,12,18};
-       double   total_puntosej79=puntos_ej79[0]+puntos_ej79[1]+puntos_ej79[2]+puntos_ej79[3]+puntos_ej79[4];
-       double   mediaej79=(puntos_ej79[0]+puntos_ej79[1]+puntos_ej79[2]+puntos_ej79[3]+puntos_ej79[4])/5;
-       double   diferenciaej79=puntos_ej79[0]-puntos_ej79[4];
-       double   numeropartidos_ej79=puntos_ej79.length ;
-       
-       
-       
-       
-       
-       //ejercicio80
+
+        int[] puntos_ej79 = {10, 15, 20, 12, 18};
+        double total_puntosej79 = puntos_ej79[0] + puntos_ej79[1] + puntos_ej79[2] + puntos_ej79[3] + puntos_ej79[4];
+        double mediaej79 = (puntos_ej79[0] + puntos_ej79[1] + puntos_ej79[2] + puntos_ej79[3] + puntos_ej79[4]) / 5;
+        double diferenciaej79 = puntos_ej79[0] - puntos_ej79[4];
+        double numeropartidos_ej79 = puntos_ej79.length;
+
+        //ejercicio80
         System.out.println("================================ ");
         System.out.println("ejercicio80");
         System.out.println("================================");
-        
-       double[] temperaturas_ej80 = {18.5,21.2,25.4,30.1,28.8};
-    
-        System.out.println("Primera temperatura. " +temperaturas_ej80[0]);
-        System.out.println("Última temperatura. "+temperaturas_ej80[4]);
-      double   mediaej80=(temperaturas_ej80[0]+temperaturas_ej80[1]+temperaturas_ej80[2]+temperaturas_ej80[3]+temperaturas_ej80[4])/5;
-        System.out.println("Temperatura media. "+mediaej80);
-        System.out.println("Número de mediciones. "+temperaturas_ej80.length);
-        boolean tmeperatura_ej80=mediaej80>25;
-        System.out.println("temperatura media es superior a 25 grados. "+tmeperatura_ej80);
-        
-       
-       //ejercicio81
+
+        double[] temperaturas_ej80 = {18.5, 21.2, 25.4, 30.1, 28.8};
+
+        System.out.println("Primera temperatura. " + temperaturas_ej80[0]);
+        System.out.println("Última temperatura. " + temperaturas_ej80[4]);
+        double mediaej80 = (temperaturas_ej80[0] + temperaturas_ej80[1] + temperaturas_ej80[2] + temperaturas_ej80[3] + temperaturas_ej80[4]) / 5;
+        System.out.println("Temperatura media. " + mediaej80);
+        System.out.println("Número de mediciones. " + temperaturas_ej80.length);
+        boolean tmeperatura_ej80 = mediaej80 > 25;
+        System.out.println("temperatura media es superior a 25 grados. " + tmeperatura_ej80);
+
+        //ejercicio81
         System.out.println("================================ ");
         System.out.println("ejercicio81");
-        System.out.println("================================");  
-        
-        int celsious_ej81=25;
-        int  Fahrenheit_ej81 = (celsious_ej81*9)/(5+32);
-        System.out.println("Temperatura Celsius: "+celsious_ej81);
-        System.out.println("Temperatura Fahrenheit: "+Fahrenheit_ej81);
-        
-        
-        
-        
-         //ejercicio82
+        System.out.println("================================");
+
+        int celsious_ej81 = 25;
+        int Fahrenheit_ej81 = (celsious_ej81 * 9) / (5 + 32);
+        System.out.println("Temperatura Celsius: " + celsious_ej81);
+        System.out.println("Temperatura Fahrenheit: " + Fahrenheit_ej81);
+
+        //ejercicio82
         System.out.println("================================ ");
         System.out.println("ejercicio82");
-        System.out.println("================================");  
-        
-        int baseej82=20;
-        int alturaej82=10;
-       double   area_ej82=  baseej82* alturaej82;
-       double   perimetroej82= (baseej82*2)+(alturaej82*2);
-        System.out.println("Área "+area_ej82);
-        System.out.println("Perímetro "+perimetroej82);
-        
-        
-        
-         
-         //ejercicio83
+        System.out.println("================================");
+
+        int baseej82 = 20;
+        int alturaej82 = 10;
+        double area_ej82 = baseej82 * alturaej82;
+        double perimetroej82 = (baseej82 * 2) + (alturaej82 * 2);
+        System.out.println("Área " + area_ej82);
+        System.out.println("Perímetro " + perimetroej82);
+
+        //ejercicio83
         System.out.println("================================ ");
         System.out.println("ejercicio83");
-        System.out.println("================================");         
-        
-        
+        System.out.println("================================");
+
+        int baseej83 = 10;
+        int alturaej83 = 8;
+        int lado1_ej83 = 10;
+        int lado2_ej83 = 10;
+        int lado3_ej83 = 12;
+        double area_ej83 = baseej83 * alturaej83 / 2;
+        double perimetro_ej83 = lado1_ej83 + lado2_ej83 + lado3_ej83;
+        System.out.println("area " + area_ej83);
+        System.out.println("perimetro " + perimetro_ej83);
+
+        //ejercicio84
+        System.out.println("================================ ");
+        System.out.println("ejercicio84");
+        System.out.println("================================");
+
+        int radio_ej84 = 10;
+        int diametro_ej84 = radio_ej84 * 2;
+        double Circunferencia_ej84 = diametro_ej84 * 3.14;
+        double area_circulo_ej84 = (radio_ej84 * 2) * 3.14;
+
+        System.out.println("el radio es " + radio_ej84 + " el diametro es " + diametro_ej84 + "la circunferencia es " + Circunferencia_ej84 + "el area es " + area_circulo_ej84);
+
+        //ejercicio85
+        System.out.println("================================ ");
+        System.out.println("ejercicio85");
+        System.out.println("================================");
+
+        double[] precios_ej85 = {10, 20, 30, 40, 50};
+        double precio_1_85 = precios_ej85[0] * 0.10;
+        double precio_2_ej85 = precios_ej85[1] * 0.10;
+        double precio_3_ej85 = precios_ej85[2] * 0.10;
+        double precios_4_ej85 = precios_ej85[3] * 0.10;
+        double precios_5_ej85 = precios_ej85[4] * 0.10;
+
+        System.out.println("este e sel precio original 1 " + precios_ej85[0]);
+        System.out.println("este e sel precio original 2 " + precios_ej85[1]);
+        System.out.println("este e sel precio original 3 " + precios_ej85[2]);
+        System.out.println("este e sel precio original 4 " + precios_ej85[3]);
+        System.out.println("este e sel precio original 5 " + precios_ej85[4]);
+
+        System.out.println("este es el precio con descuento " + precio_1_85);
+        System.out.println("este es el precio con descuento " + precio_2_ej85);
+        System.out.println("este es el precio con descuento " + precio_3_ej85);
+        System.out.println("este es el precio con descuento " + precios_4_ej85);
+        System.out.println("este es el precio con descuento " + precios_5_ej85);
+   
+   
      
+        //ejercicio86
+        System.out.println("================================ ");
+        System.out.println("ejercicio86");
+        System.out.println("================================");
+        
+     String[] productos_ej86 = {"teclado","raton","monitor","Webcam", "Altavoces"};
+     double[] precios_ej86 = { 25.50, 15.99,150.00, 40.00,35.00};
+     
+        System.out.println("este es el producto 1 "+productos_ej86[0]+"este es el precio del producto 1 "+precios_ej86[0]);
+     System.out.println("este es el producto 2 "+productos_ej86[1]+"este es el precio del producto 2 "+precios_ej86[1]);
+     System.out.println("este es el producto 3 "+productos_ej86[2]+"este es el precio del producto 3 "+precios_ej86[2]);
+     System.out.println("este es el producto 4 "+productos_ej86[3]+"este es el precio del producto 4 "+precios_ej86[3]);
+     System.out.println("este es el producto 5 "+productos_ej86[4]+"este es el precio del producto 5 "+precios_ej86[4]);
+
+
+     
+        //ejercicio87
+        System.out.println("================================ ");
+        System.out.println("ejercicio87");
+        System.out.println("================================");
+        
+
+        String nombre_ej87="santishop";
+        String ciudad_ej87="Jerez De La Front";
+        int empleados_ej87=6;
+        String [] productos_ej87={"balon","camiseta","zapatilla","pantalon","calcetines"};
+        double  []precios_ej87={15,20,75,25,9};
+        
+        System.out.println("Nombre de la tienda. "+nombre_ej87);
+        System.out.println("ciudad "+ciudad_ej87);
+        System.out.println("Número de empleados. "+empleados_ej87);
+        System.out.println("Producto 1 y precio. "+productos_ej87[0]+precios_ej87[0]);
+       System.out.println("Producto 2 y precio. "+productos_ej87[1]+precios_ej87[1]);
+        System.out.println("Producto 3 y precio. "+productos_ej87[2]+precios_ej87[2]);
+        System.out.println("Producto 4 y precio. "+productos_ej87[3]+precios_ej87[3]);
+        System.out.println("Producto 5 y precio. "+productos_ej87[4]+precios_ej87[4]);
+        
+        System.out.println("Número de productos. "+productos_ej87.length);
+        System.out.println("este es el precio medio "+(precios_ej87[0]+precios_ej87[1]+precios_ej87[2]+precios_ej87[3]+precios_ej87[4])/5);
+        System.out.println("Primer producto. "+productos_ej87[0]);
+        System.out.println("ultimo producto. "+productos_ej87[4]);
+        System.out.println("primer precio "+precios_ej87[0]);
+        System.out.println("ultimo precio "+precios_ej87[4]);
+        
+        boolean empleados_menos10_ej87=empleados_ej87>10;
+        System.out.println("La tienda tiene más de 10 empleados. "+empleados_menos10_ej87);
+        boolean cuesta_menos20_ej87=precios_ej87[0]>20;
+        System.out.println("El primer producto cuesta más de 20 €. "+cuesta_menos20_ej87);
+       boolean  producto_menos100=precios_ej87[4]<100;
+        System.out.println("El último producto cuesta menos de 100 €."+producto_menos100);
+        boolean productos_masymenos_ej87=
+
+                
+        
         
      }
 
