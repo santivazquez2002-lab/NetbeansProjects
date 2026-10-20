@@ -1279,7 +1279,8 @@ public class Bateriajava {
         System.out.println("El primer producto cuesta más de 20 €. "+cuesta_menos20_ej87);
        boolean  producto_menos100=precios_ej87[4]<100;
         System.out.println("El último producto cuesta menos de 100 €."+producto_menos100);
-        boolean productos_masymenos_ej87=
+        boolean productos_masymenos_ej87=productos_ej87>3,productos_ej87<10;
+        System.out.println("La tienda tiene más de 3 productos Y menos de 10 productos."+productos_masymenos_ej87);
 
                 
         
