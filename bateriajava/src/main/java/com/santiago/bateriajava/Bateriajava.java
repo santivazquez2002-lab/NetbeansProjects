@@ -1279,12 +1279,77 @@ public class Bateriajava {
         System.out.println("El primer producto cuesta más de 20 €. "+cuesta_menos20_ej87);
        boolean  producto_menos100=precios_ej87[4]<100;
         System.out.println("El último producto cuesta menos de 100 €."+producto_menos100);
-        boolean productos_masymenos_ej87=productos_ej87>3,productos_ej87<10;
+        boolean productos_masymenos_ej87=productos_ej87.length>3&&productos_ej87.length<10;
         System.out.println("La tienda tiene más de 3 productos Y menos de 10 productos."+productos_masymenos_ej87);
 
                 
+          //ejercicio88
+        System.out.println("================================ ");
+        System.out.println("ejercicio88");
+        System.out.println("================================");
+        
+          String nombre_ej88 = "santi";
+        String apellidos_ej88 = "Vazquez";
+        int edad_ej88 = 24;
+        String curso_ej88 = "1daw";
+        boolean repetidor_ej88 = false;
+        String centro_ej88 = "albor ";
+          System.out.println("nombre " + nombre_ej88);
+        System.out.println("apellidos " + apellidos_ej88);
+        System.out.println("edad " + edad_ej88);
+        System.out.println("curso " + curso_ej88);
+        System.out.println("centro academico " + centro_ej88);
+        System.out.println("es repetidor " +repetidor_ej88);
+        int[] notas_ej88 = {10, 2, 3, 4, 5};
+       System.out.println("la media de las notas es " + (notas_ej88[1] + notas_ej88[2] + notas_ej88[3] +notas_ej88[4] +notas_ej88[0]) / 5);
+       int  media_notasej88=4;
+       System.out.println("la suma de las notas es " + (notas_ej88[1] + notas_ej88[2] + notas_ej88[3] +notas_ej88[4] +notas_ej88[0]));
+       System.out.println("Primera nota. "+notas_ej88[0]);
+       System.out.println("ultima nota. "+notas_ej88[4]);
+       System.out.println("numero de notas. "+notas_ej88.length);
+       boolean  mayor_edad_ej88=edad_ej88>18;
+       boolean  media_aprovadaej88=media_notasej88>5;
+       boolean media_superior7=media_notasej88>7;
+       boolean nota_1_ej88=notas_ej88[0]>5;
+       boolean nota_5_ej88=notas_ej88[4]==10;
+        System.out.println("Mayor de edad. "+mayor_edad_ej88);
+        System.out.println("Media aprobada. "+media_aprovadaej88);
+        System.out.println("Media superior a 7. "+media_superior7);
+        System.out.println("Primera nota superior a 5. "+nota_1_ej88);
+        System.out.println("Última nota diferente de 10. "+nota_5_ej88);
         
         
+        
+          //ejercicio89
+        System.out.println("================================ ");
+        System.out.println("ejercicio89");
+        System.out.println("================================");
+       
+        String nombre_ej89 ="play station";
+        String marca_ej89 = "sony";
+        String categoria_ej89 ="electronica";
+        int precio_ej89 = 500;
+        int  stock_ej89 = 100;
+        int descuento_ej89 = 10;
+        double iva_ej89 = 0.21;
+        boolean disponible_ej89 = true;
+        double  importe_despues_descuento_ej89=precio_ej89-descuento_ej89;
+        double calculo_iva_ej89 = precio_ej89 * 0.21;
+        double precio_final_ej89=precio_ej89-importe_despues_descuento_ej89+calculo_iva_ej89;
+        
+       double[] precios_ej89 = { 25.50, 15.99,150.00, 40.00,35.00};
+       double mediaej89 = (precios_ej89[0] + precios_ej89[1] + precios_ej89[2] + precios_ej89[3] + precios_ej89[4]) / 5;
+       boolean  stock_disponible_ej89=stock_ej89>0;
+       boolean  precio_superior_20_ej89=precio_ej89>20;
+       boolean  precio_inferior_1000_ej89=precio_ej89<1000;
+       
+        System.out.println("Importe del descuento. "+importe_despues_descuento_ej89);
+        System.out.println("Precio después del descuento. "+precio_ej89);
+        System.out.println("Importe del IVA. "+iva_ej89);
+        System.out.println("Precio final. "+precio_final_ej89);
+        System.out.println("Tiene stock. "+stock_disponible_ej89);
+        System.out.println("Precio superior a 20 €. "+precio_superior_20_ej89);
+        System.out.println("Precio inferior a 1000 €. "+precio_inferior_1000_ej89);
      }
 
 }
